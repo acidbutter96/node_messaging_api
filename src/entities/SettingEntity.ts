@@ -3,7 +3,7 @@ import { v4 as uuid } from 'uuid'
 
 @Entity('settings')
 
-class SettingsEntity {
+class Setting {
     @PrimaryColumn()
     id: string
 
@@ -27,4 +27,4 @@ class SettingsEntity {
 
 }
 
-export { SettingsEntity }
+export { Setting }
